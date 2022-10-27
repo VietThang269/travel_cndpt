@@ -1,0 +1,83 @@
+.explore {
+  display: flex;
+  padding: 5% 5%;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.explore_left,
+.explore_right {
+  width: 650px;
+  height: 250px;
+  border-radius: 20px;
+  position: relative;
+  padding: 2% 2%;
+  transition: all 0.3s linear;
+}
+
+.explore_left {
+  background: linear-gradient(105.42deg, #053ed1 8.29%, #2e75db 79.4%);
+}
+
+.explore_left img {
+  position: absolute;
+  width: 200px;
+  top: 7%;
+  right: 7%;
+  transition: all 0.3s linear;
+}
+
+.explore_title h2,
+.explore_left h2 {
+  color: white;
+  margin: 0;
+  font-size: 35px;
+}
+
+.explore_title p,
+.explore_left p {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.explore_right {
+  background: linear-gradient(
+    100.92deg,
+    #fff0a2 -2.68%,
+    #ffd242 101.42%,
+    #2e75db 101.43%
+  );
+  transition: all 0.3s linear;
+}
+
+.explore_right img {
+  width: 200px;
+  position: absolute;
+  top: 7%;
+  right: 7%;
+  transition: all 0.3s linear;
+}
+
+.explore_title {
+  width: 50%;
+  text-align: center;
+}
+
+.explore_left_title {
+  width: 57%;
+  text-align: center;
+}
+
+.explore_title h2,
+.explore_title p {
+  color: #35368f;
+}
+
+.explore_left:hover img {
+  transform: scale(1.1);
+}
+
+.explore_right:hover img {
+  transform: scale(1.1);
+}

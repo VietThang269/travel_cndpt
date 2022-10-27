@@ -1,0 +1,32 @@
+.district {
+  padding: 0 5%;
+  margin-top: 20px;
+}
+
+.district_title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.district_item {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.district_item h3:hover {
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.district_item img {
+  object-fit: cover;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.district_slider {
+  position: relative;
+}

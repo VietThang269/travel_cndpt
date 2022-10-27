@@ -1,0 +1,9 @@
+@import "antd/dist/antd.css";
+
+:root {
+  --main-color: #3b71fe;
+}
+
+p {
+  margin: 0;
+}

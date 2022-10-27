@@ -1,0 +1,50 @@
+.header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1% 5%;
+  z-index: 999;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.header_list {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+}
+
+.header_item {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.header_item:hover {
+  color: var(--main-color);
+}
+
+.header_account span {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.modal_radius .ant-modal-content {
+  border-radius: 20px;
+}
+
+.ant-popover {
+  position: fixed;
+  z-index: 1;
+}
+
+.header_option {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

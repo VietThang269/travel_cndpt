@@ -1,0 +1,33 @@
+.blog_item {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #f7f8fa;
+  border: 1px solid #dfdfdf;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.blog_item_img {
+  height: 500px;
+  overflow: hidden;
+}
+
+.blog_item_img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.blog_item > div:not(:nth-child(1)) {
+  padding: 1% 2%;
+}
+
+.blog_item_info {
+  width: 90%;
+}
+
+.truncate p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
